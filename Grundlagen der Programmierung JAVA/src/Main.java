@@ -11,6 +11,8 @@ public class Main {
 	static Task03_3 task03_0 = new Task03_3();
 	static Task04_2 task04_2 = new Task04_2();
 	static Task04_3 task04_3 = new Task04_3(array);
+	static Task05_2 task05_2 = new Task05_2();
+	static Task05_3 task05_3 = new Task05_3();
 	
 	
 	public static void main(String args[]) {
@@ -21,6 +23,9 @@ public class Main {
 		System.out.println("Task02_3:  " + task02_3.run());
 		System.out.print("Task03_3:  "); task03_0.quad();
 		System.out.print("\nTask04_2: "); task04_2.schaltjahr();
-		System.out.print("Task04_3: " + task04_3.avgTemp(array) + " ; " + task04_3.maxTemp(array) + " ; " + task04_3.maxDiff(array)); 
-	} //das ist ein Test
+		System.out.println("Task04_3: " + task04_3.avgTemp(array) + " ; " + task04_3.maxTemp(array) + " ; " + task04_3.maxDiff(array)); 
+		System.out.print("Task05_2: "); task05_2.fibo();
+		System.out.print("\nTask05_3: "); task05_3.run(2013);
+		
+	} 
 }
