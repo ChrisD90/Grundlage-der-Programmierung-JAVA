@@ -22,5 +22,5 @@ public class Main {
 		System.out.print("Task03_3:  "); task03_0.quad();
 		System.out.print("\nTask04_2: "); task04_2.schaltjahr();
 		System.out.print("Task04_3: " + task04_3.avgTemp(array) + " ; " + task04_3.maxTemp(array) + " ; " + task04_3.maxDiff(array)); 
-	}
+	} //das ist ein Test
 }
