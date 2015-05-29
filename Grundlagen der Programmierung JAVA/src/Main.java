@@ -13,6 +13,7 @@ public class Main {
 	static Task04_3 task04_3 = new Task04_3(array);
 	static Task05_2 task05_2 = new Task05_2();
 	static Task05_3 task05_3 = new Task05_3();
+	static Task05_4 task05_4 = new Task05_4();
 	
 	
 	public static void main(String args[]) {
@@ -26,6 +27,6 @@ public class Main {
 		System.out.println("Task04_3: " + task04_3.avgTemp(array) + " ; " + task04_3.maxTemp(array) + " ; " + task04_3.maxDiff(array)); 
 		System.out.print("Task05_2: "); task05_2.fibo();
 		System.out.print("\nTask05_3: "); task05_3.run(2013);
-		
+		System.out.print("Task05_4: " + Task05_4.round(2.123456789)+ " ; " + Task05_4.round(2.123456789, 4));
 	} 
 }
