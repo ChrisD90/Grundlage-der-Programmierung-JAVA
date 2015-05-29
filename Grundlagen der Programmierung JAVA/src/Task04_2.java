@@ -7,7 +7,7 @@ public class Task04_2 {
 		for(int i=0; i<jahre.length;i++) {
 			int j = jahre[i];
 			System.out.print("Das Jahr " + j + " ist: ");
-			if(j%4 == 0 && (j%100 != 0 || j%400 == 0)) {
+			if(j%400 == 0 || (j%100 != 0 && j%4 == 0)) {
 				System.out.print("ein Schaltjahr.\n");
 			} else {
 				System.out.print("KEIN Schaltjahr.\n");

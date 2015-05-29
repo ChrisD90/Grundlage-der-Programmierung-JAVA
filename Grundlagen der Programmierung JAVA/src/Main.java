@@ -26,7 +26,7 @@ public class Main {
 		System.out.print("\nTask04_2: "); task04_2.schaltjahr();
 		System.out.println("Task04_3: " + task04_3.avgTemp(array) + " ; " + task04_3.maxTemp(array) + " ; " + task04_3.maxDiff(array)); 
 		System.out.print("Task05_2: "); task05_2.fibo();
-		System.out.print("\nTask05_3: "); task05_3.run(2013);
+		System.out.print("\nTask05_3: "); task05_3.run(2012);
 		System.out.print("Task05_4: " + Task05_4.round(2.123456789)+ " ; " + Task05_4.round(2.123456789, 4));
 	} 
 }
